@@ -157,4 +157,46 @@ p {
   color: #969fad;
 }
 
+@media (max-width: 450px) {
+  .rating-card,
+  .thankyou-card {
+    width: 327px;
+    height: 360px;
+    padding: 24px;
+  }
+  .rating-card .img-underlay {
+    width: 40px;
+    height: 40px;
+  }
+  .thankyou-innertext {
+    width: 279px;
+  }
+  .rating-card .submit-button {
+    width: 100%;
+  }
+  .rating-card .rating-container a {
+    width: 42px;
+    height: 42px;
+  }
+  p {
+    font-family: Overpass, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  h1 {
+    font-family: Overpass, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .thankyou-card img {
+    width: 144px;
+    height: 96px;
+  }
+  .thankyou-card .thankyou-innertext {
+    width: 279px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
