@@ -26,30 +26,48 @@
       }
     </style>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <!-- Rating state start -->
+    <div class="rating-card">
+      <div class="img-underlay">
+        <img src="images/icon-star.svg" />
+      </div>
+      <div class="how-text">
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
 
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
-
+        <div class="rating-container">
+          <a class="rate1" href="#">1</a><a class="rate2" href="#">2</a
+          ><a href="#" class="rate3">3</a><a href="#" class="rate4">4</a
+          ><a href="#" class="rate5">5</a>
+        </div>
+      </div>
+      <a class="submit-button" href="#">Submit</a>
+    </div>
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://madroosterlab.com" target="_blank">Jon Avila</a>.
+    <div class="thankyou-card">
+      <img src="images/illustration-thank-you.svg" />
+      <!-- Add rating here -->
+      <div class="button-style">
+        <div class="rating-text">
+          You selected <span class="rating">0</span> out of 5
+        </div>
+      </div>
+      <div class="thankyou-innertext">
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
     </div>
+    <!-- Thank you state end -->
   </body>
 </html>
